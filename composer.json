@@ -24,9 +24,9 @@
         "Guides"
     ],
     "require": {
-        "awema-pl/module-docs": "^1.0"
+        "awema-pl/module-docs": "dev-master"
     },
-    "require-dev": [],
+    "require-dev": {},
     "autoload": {
         "psr-4": {
             "AwemaPL\\Wiki\\": "src/"
@@ -40,11 +40,22 @@
     "scripts": {
         "test": "vendor/bin/phpunit --colors=always"
     },
+
     "extra": {
         "laravel": {
             "providers": [
                 "AwemaPL\\Wiki\\WikiServiceProvider"
             ]
         }
-    }
+    },
+    "repositories": {
+        "0": {
+            "type": "path",
+            "url": "../Docs",
+            "options": {
+                "symlink": true
+            }
+        }
+    },
+    "minimum-stability": "dev"
 }
