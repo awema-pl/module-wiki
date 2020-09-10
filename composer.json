@@ -1,5 +1,5 @@
 {
-    "name": "awema-pl/wiki",
+    "name": "awema-pl/module-wiki",
     "description": "This is the source for the https://www.awema.pl/documentation/",
     "type": "library",
     "license": "MIT",
@@ -24,7 +24,7 @@
         "Guides"
     ],
     "require": {
-        "awema-pl/docs": "^0.2"
+        "awema-pl/module-docs": "^1.0"
     },
     "require-dev": [],
     "autoload": {

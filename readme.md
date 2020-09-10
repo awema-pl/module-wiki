@@ -15,16 +15,16 @@
         <img src="https://www.pkgkit.com/4GBWO/awema/wiki/downloads.svg" alt="Downloads" />
     </a>
     <a href="https://www.awema.pl/?utm_source=github&amp;utm_medium=shields">
-        <img src="https://img.shields.io/github/license/awema-pl/wiki.svg" alt="License" />
+        <img src="https://img.shields.io/github/license/awema-pl/module-wiki.svg" alt="License" />
     </a>
     <a href="https://www.awema.pl/?utm_source=github&amp;utm_medium=shields">
-        <img src="https://img.shields.io/github/last-commit/awema-pl/wiki.svg" alt="Last commit" />
+        <img src="https://img.shields.io/github/last-commit/awema-pl/module-wiki.svg" alt="Last commit" />
     </a>
     <a href="https://www.pkgkit.com/?utm_source=github&amp;utm_medium=shields">
         <img src="https://www.pkgkit.com/badges/hosted.svg" alt="Hosted by Package Kit" />
     </a>
-    <a href="https://github.com/awema-pl/wiki">
-        <img src="https://ga-beacon.appspot.com/UA-134431636-1/awema-pl/wiki" alt="Analytics" />
+    <a href="https://github.com/awema-pl/module-wiki">
+        <img src="https://ga-beacon.appspot.com/UA-134431636-1/awema-pl/module-wiki" alt="Analytics" />
     </a>
 </p>
 
@@ -55,7 +55,7 @@ Follow to [Documentation](https://www.awema.pl/documentation/?utm_source=github&
 Via Composer
 
 ``` bash
-$ composer require awema-pl/wiki
+$ composer require awema-pl/module-wiki
 ```
 The package will automatically put docs path to `config('docs.path')`
 
