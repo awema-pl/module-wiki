@@ -1,0 +1,50 @@
+{
+    "name": "awema-pl/wiki",
+    "description": "This is the source for the https://www.awema.pl/documentation/",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Karol Golec",
+            "email": "karolgolec10@gmail.com",
+            "homepage": "https://github.pl/awema-pl/module-wiki",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "karolgolec10@gmail.com"
+    },
+    "homepage": "http://gitlab.awema.pl/awema/wiki",
+    "keywords": [
+        "Awema.pl",
+        "Wiki",
+        "awema-pl",
+        "awemadotio",
+        "Documentation",
+        "Guides"
+    ],
+    "require": {
+        "awema-pl/docs": "^0.2"
+    },
+    "require-dev": [],
+    "autoload": {
+        "psr-4": {
+            "AwemaPL\\Wiki\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AwemaPL\\Wiki\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit --colors=always"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AwemaPL\\Wiki\\WikiServiceProvider"
+            ]
+        }
+    }
+}
