@@ -1,7 +1,7 @@
 # Introduction
 
 <p align="center">
-  <img src="https://static.awema.pl/promo/illustration_1440x1030_transparent_black.png" width="33%" />
+  <img src="/assets/awema-pl/wiki/promo/illustration_1440x1030_transparent_black.png" width="33%" />
 </p>
 
 

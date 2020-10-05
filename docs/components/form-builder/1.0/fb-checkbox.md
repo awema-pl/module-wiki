@@ -2,7 +2,7 @@
 
 Может находиться только внутри &lt;form-builder&gt;
 
-![fb-checkbox](https://storage.googleapis.com/static.awema.pl/docs/fb-checkbox.png)
+![fb-checkbox](/assets/awema-pl/wiki/docs/fb-checkbox.png)
 
 
 ## Пример использования компонента

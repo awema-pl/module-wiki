@@ -2,7 +2,7 @@
 
 The context menu component is designed to display hidden by default list by clicking the button.
 
-![context-menu](https://storage.googleapis.com/static.awema.pl/docs/context-menu.gif)
+![context-menu](/assets/awema-pl/wiki/docs/context-menu.gif)
 
 
 ## Minimal markup

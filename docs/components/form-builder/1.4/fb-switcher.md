@@ -2,7 +2,7 @@
 
 The `input[type="range"]`-based switcher 0/1. It can be located within the &lt;form-builder&gt; component, then it requires `name` property, or it can be used with `v-model` Vue directive. Here is how the switcher component functions as well as how it is displayed.
 
-![fb-switcher](https://static.awema.pl/docs/fb-switcher.gif)
+![fb-switcher](/assets/awema-pl/wiki/docs/fb-switcher.gif)
 
 ## Components
 * [Form Builder](./form-builder.md)

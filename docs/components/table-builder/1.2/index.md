@@ -1,6 +1,6 @@
 # Table builder
 
-![table-builder](https://static.awema.pl/docs/table-builder.gif)
+![table-builder](/assets/awema-pl/wiki/docs/table-builder.gif)
 
 ## Install
 

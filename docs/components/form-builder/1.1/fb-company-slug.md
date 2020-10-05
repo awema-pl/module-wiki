@@ -7,7 +7,7 @@ It can be located within the &lt;form-builder&gt; component, or can be used with
 
 This component visually looks like:
 
-![fb-company-slug](https://static.awema.pl/docs/fb-company-slug.gif)
+![fb-company-slug](/assets/awema-pl/wiki/docs/fb-company-slug.gif)
 
 ## Components
 * [General information](./form-builder.md)

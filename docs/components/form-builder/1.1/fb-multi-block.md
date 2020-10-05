@@ -2,7 +2,7 @@
 
 It can be located only within the &lt;form-builder&gt; component and is visually presented as follows:
 
-![fb-multi-block](https://static.awema.pl/docs/fb-multi-block.gif)
+![fb-multi-block](/assets/awema-pl/wiki/docs/fb-multi-block.gif)
 
 ## Components
 * [General information](./form-builder.md)

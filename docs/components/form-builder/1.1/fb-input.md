@@ -2,7 +2,7 @@
 
 It is a text field component. It can be located within the &lt;form-builder&gt; component or used with `v-model` directive and can be visualized as follows:
 
-![fb-input](https://static.awema.pl/docs/fb-input.png)
+![fb-input](/assets/awema-pl/wiki/docs/fb-input.png)
 
 ## Components
 * [General information](./form-builder.md)

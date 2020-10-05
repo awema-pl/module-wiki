@@ -2,7 +2,7 @@
 
 It is a component for writing and changing code. You paste your code in the window and can see the result and other changes in real time, as in the screenshot below. 
 
-![fb-editor](https://static.awema.pl/docs/fb-editor.png)
+![fb-editor](/assets/awema-pl/wiki/docs/fb-editor.png)
 
 ## Components
 * [Form Builder](./form-builder.md)

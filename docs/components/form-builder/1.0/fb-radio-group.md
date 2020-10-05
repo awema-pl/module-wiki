@@ -2,7 +2,7 @@
 
 Может находиться только внутри &lt;form-builder&gt;
 
-![fb-radio-group](https://storage.googleapis.com/static.awema.pl/docs/fb-radio-group.png)
+![fb-radio-group](/assets/awema-pl/wiki/docs/fb-radio-group.png)
 
 ## Пример использования компонента
 

@@ -2,7 +2,7 @@
 
 A component for selecting a period of time by choosing start and end date (time is not included). For selecting a specific date and time, please use the [Date component](./fb-date.md) It can be located within the &lt;form-builder&gt; component or used with `v-model` directive and can be visualized as follows:
 
-![fb-date-range](https://storage.googleapis.com/static.awema.pl/docs/fb-date-range.gif)
+![fb-date-range](/assets/awema-pl/wiki/docs/fb-date-range.gif)
 
 The component uses [Tiny Date Range Picker](https://github.com/chrisdavies/tiny-date-picker) internally to render calendars
 

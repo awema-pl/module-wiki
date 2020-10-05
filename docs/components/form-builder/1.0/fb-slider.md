@@ -2,7 +2,7 @@
 
 Компонент ползунок. Может находиться только внутри &lt;form-builder&gt;
 
-![fb-slider](https://storage.googleapis.com/static.awema.pl/docs/fb-slider.gif)
+![fb-slider](/assets/awema-pl/wiki/docs/fb-slider.gif)
 
 
 ## Пример использования компонента

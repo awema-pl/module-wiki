@@ -1,6 +1,6 @@
 # &lt;fb-editor&gt;
 
-![fb-editor](https://storage.googleapis.com/static.awema.pl/docs/fb-editor.png)
+![fb-editor](/assets/awema-pl/wiki/docs/fb-editor.png)
 
 ## Конфигурация по-умолчанию
 

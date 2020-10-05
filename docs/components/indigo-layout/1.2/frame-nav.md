@@ -2,7 +2,7 @@
 
 This component is intended for displaying the side menu as a two-level dropdown list. Below you will see a visual presentation of such component.
 
-![frame-nav](https://static.awema.pl/docs/frame-nav.gif)
+![frame-nav](/assets/awema-pl/wiki/docs/frame-nav.gif)
 
 ## Components
 - [Navigation Generator](./nav-generator.md)

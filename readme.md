@@ -1,18 +1,18 @@
 <p align="center">
     <a href="https://www.awema.pl/?utm_source=github&utm_medium=wiki" target="_blank" rel="noopener noreferrer">
-        <img width="100" src="https://static.awema.pl/promo/Logo_sign_color.svg" alt="Awema.pl logo">
+        <img width="100" src="/assets/awema-pl/wiki/promo/Logo_sign_color.svg" alt="Awema.pl logo">
     </a>
 </p>
 
 <p align="center">
     <a href="https://www.awema.pl/?utm_source=github&amp;utm_medium=shields">
-        <img src="https://www.pkgkit.com/4GBWO/awema/wiki/status.svg" alt="Composer Ready" />
+        <img src="https://www.awema.pl/4GBWO/awema/wiki/status.svg" alt="Composer Ready" />
     </a>
     <a href="https://www.awema.pl/?utm_source=github&amp;utm_medium=shields">
-        <img src="https://www.pkgkit.com/4GBWO/awema/wiki/version.svg" alt="Last version" />
+        <img src="https://www.awema.pl/4GBWO/awema/wiki/version.svg" alt="Last version" />
     </a> 
     <a href="https://www.awema.pl/?utm_source=github&amp;utm_medium=shields">
-        <img src="https://www.pkgkit.com/4GBWO/awema/wiki/downloads.svg" alt="Downloads" />
+        <img src="https://www.awema.pl/4GBWO/awema/wiki/downloads.svg" alt="Downloads" />
     </a>
     <a href="https://www.awema.pl/?utm_source=github&amp;utm_medium=shields">
         <img src="https://img.shields.io/github/license/awema-pl/module-wiki.svg" alt="License" />
@@ -20,8 +20,8 @@
     <a href="https://www.awema.pl/?utm_source=github&amp;utm_medium=shields">
         <img src="https://img.shields.io/github/last-commit/awema-pl/module-wiki.svg" alt="Last commit" />
     </a>
-    <a href="https://www.pkgkit.com/?utm_source=github&amp;utm_medium=shields">
-        <img src="https://www.pkgkit.com/badges/hosted.svg" alt="Hosted by Package Kit" />
+    <a href="https://www.awema.pl/?utm_source=github&amp;utm_medium=shields">
+        <img src="https://www.awema.pl/badges/hosted.svg" alt="Hosted by Package Kit" />
     </a>
     <a href="https://github.com/awema-pl/module-wiki">
         <img src="https://ga-beacon.appspot.com/UA-134431636-1/awema-pl/module-wiki" alt="Analytics" />
@@ -44,7 +44,7 @@
 Looking for other Awema.pl repositories? Check out [website](https://www.awema.pl/?utm_source=github&utm_medium=wiki), [new project](https://github.com/awema-pl/awema-pl) repository, [demo](https://github.com/awema-pl/demo) repository, and [live demo](https://demo.awema.pl) example.
 
 <p align="center">
-    <img src="https://static.awema.pl/promo/illustration_1440x1030%20v2.png" alt="Awema.pl">
+    <img src="/assets/awema-pl/wiki/promo/illustration_1440x1030%20v2.png" alt="Awema.pl">
 </p>
 
 ## Live version

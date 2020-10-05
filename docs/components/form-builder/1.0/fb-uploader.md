@@ -4,7 +4,7 @@
 
 Загружает файлы по указанному свойству `url` и при отправке формы отсылает пути к загруженным файлам
 
-![fb-uploader](https://storage.googleapis.com/static.awema.pl/docs/fb-uploader.gif)
+![fb-uploader](/assets/awema-pl/wiki/docs/fb-uploader.gif)
 
 ## Пример использования компонента
 

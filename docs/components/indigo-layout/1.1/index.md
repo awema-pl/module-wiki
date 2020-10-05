@@ -1,7 +1,7 @@
 # Indigo Layout
 
 <p align="center">
-  <img src="https://static.awema.pl/docs/awema-pl.png" alt="Awema.PL" />
+  <img src="/assets/awema-pl/wiki/docs/awema-pl.png" alt="Awema.PL" />
 </p>
 
 ## Install

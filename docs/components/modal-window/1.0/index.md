@@ -2,7 +2,7 @@
 
 It is a modal window component with a tracked history. Below you will see a visual presentation of the modal window component.
 
-![modal-widndow](https://storage.googleapis.com/static.awema.pl/docs/modal.gif)
+![modal-widndow](/assets/awema-pl/wiki/docs/modal.gif)
 
 
 <h2 id="mw-example">Example of using the component</h2>

@@ -4,7 +4,7 @@ It is a component for automatic content navigation. It creates anchor links from
 
 What this means in practice, you can see below:
 
-![page-map](https://storage.googleapis.com/static.awema.pl/docs/page-map.gif)
+![page-map](/assets/awema-pl/wiki/docs/page-map.gif)
 
 
 ## Example of using the component

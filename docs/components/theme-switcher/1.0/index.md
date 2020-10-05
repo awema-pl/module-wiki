@@ -2,7 +2,7 @@
 
 It switches a theme from dark to light and vice versa, adding or removing the `[data-dark="true"]` attribute in the page’s root element. Watches `@media (prefers-color-scheme: dark)` media-query
 
-![theme-switcher](https://storage.googleapis.com/static.awema.pl/docs/theme-switcher.gif)
+![theme-switcher](/assets/awema-pl/wiki/docs/theme-switcher.gif)
 
 
 ## Input value

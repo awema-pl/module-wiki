@@ -15,7 +15,9 @@ class WikiServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        $this->publishes([
+            __DIR__.'/../dist' => public_path("assets/awema-pl/wiki"),
+        ], 'awema-pl-public');
     }
 
     /**

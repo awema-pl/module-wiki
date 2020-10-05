@@ -2,7 +2,7 @@
 
 Может находиться только внутри &lt;form-builder&gt;
 
-![fb-multi-block](https://storage.googleapis.com/static.awema.pl/docs/fb-multi-block.gif)
+![fb-multi-block](/assets/awema-pl/wiki/docs/fb-multi-block.gif)
 
 ## Пример использования компонента
 

@@ -4,7 +4,7 @@ The &lt;filter-wrapper&gt; component is an add-in for the &lt;form-builder&gt;, 
 
 Below you can see a clear example of using such type of filter on your website.
 
-![filter-wrapper](https://storage.googleapis.com/static.awema.pl/docs/filter-wrapper.gif)
+![filter-wrapper](/assets/awema-pl/wiki/docs/filter-wrapper.gif)
 
 ## Components
 * **Filter Wrapper**

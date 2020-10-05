@@ -37,7 +37,7 @@ Schema::create('leads', function (Blueprint $table) {
 
 After migrating, we can finally access new section on `localhost/leads` and see basic [Awema.pl UI](https://github.com/awema-pl/indigo-layout):
 
-<img src="https://static.awema.pl/docs/guide/01_basic_ui.png" alt="Awema.pl">
+<img src="/assets/awema-pl/wiki/docs/guide/01_basic_ui.png" alt="Awema.pl">
 
 Note that, new localization file will also be created within the `resources/lang` directory, thanks to the `awema-pl/localization-helper` package, which we'll discuss later.
 
@@ -152,7 +152,7 @@ For now, just ignore `@click` code, we'll explain it later. Next goes `group fil
 @filtergroup(['filter' => ['' => 'All', '1' => 'Public', '0' => 'Private'], 'variable' => 'is_public'])
 ```
 
-<img src="https://static.awema.pl/docs/guide/02_filter_group_component.png" alt="Awema.pl">
+<img src="/assets/awema-pl/wiki/docs/guide/02_filter_group_component.png" alt="Awema.pl">
 
 If we click on one of the filters, we'll see that it modifies `is_public` URL's parameter to respective value. Our component tracks these changes and sends server requests to get filtered data. 
 
@@ -192,7 +192,7 @@ Next is the button to open main filters panel, for now, it only displays one par
     </filter-wrapper>
 </slide-up-down>
 ```
-<img src="https://static.awema.pl/docs/guide/03_main_filters.png" alt="Awema.pl" class="mb-20">
+<img src="/assets/awema-pl/wiki/docs/guide/03_main_filters.png" alt="Awema.pl" class="mb-20">
 
 Further, we see the usage of one of our most powerful component - [Table Builder](https://github.com/awema-pl/table-builder), which powers `@table` blade component for easy interactive tables set up:
 
@@ -237,11 +237,11 @@ Schema::table('leads', function (Blueprint $table) {
 ```
 After migrating, let's add a couple of records with statuses `new` and `closed`, directly to a database table:
 
-<img src="https://static.awema.pl/docs/guide/04_leads_with_statuses.png" class="mb-20" alt="Awema.pl">
+<img src="/assets/awema-pl/wiki/docs/guide/04_leads_with_statuses.png" class="mb-20" alt="Awema.pl">
 
 Now if we refresh `/leads` page, we'll discover that we also need to add a new column to the UI table in order to see which status each record currently have:
 
-<img src="https://static.awema.pl/docs/guide/05_leads_without_statuses_table.png" alt="Awema.pl">
+<img src="/assets/awema-pl/wiki/docs/guide/05_leads_without_statuses_table.png" alt="Awema.pl">
 
 It's time to slightly dive into `table-builder` component's functionality. Firstly let's add a new `status` column:
 
@@ -252,7 +252,7 @@ It's time to slightly dive into `table-builder` component's functionality. First
 
 As you can see, we added a new `tb-column` tag. `Name` parameter is a key in the data object, which is just our `status` field name. And we're also passing new language string to a `label` property, as we've discussed earlier. Now if we refresh lead's page, we'll see their statuses:
 
-<img src="https://static.awema.pl/docs/guide/06_leads_with_statuses_table.png" alt="Awema.pl">
+<img src="/assets/awema-pl/wiki/docs/guide/06_leads_with_statuses_table.png" alt="Awema.pl">
 
 Let's go back to the group filter and slightly edit it to retrieve records by status:
 
@@ -278,7 +278,7 @@ and add `status` to `@table`'s `scope_api_params` property (this will allow the 
 
 now if we click on filter option, request with `status` parameter will be sent to the server and `repository` package will filter data and return it for `table-builder` to render:
 
-<img src="https://static.awema.pl/docs/guide/07_group_filter_by_status.png" alt="Awema.pl">
+<img src="/assets/awema-pl/wiki/docs/guide/07_group_filter_by_status.png" alt="Awema.pl">
 
 It's that easy, more info on filtering can be found in [awema-pl/repository documentation](https://github.com/awema-pl/repository).
 
@@ -288,7 +288,7 @@ We've updated the existing filter, but what if we want to build a custom filter 
 
 We have the option to search leads by their names, but the filter doesn't work, let's fix this:
 
-<img src="https://static.awema.pl/docs/guide/08_filter_by_name_not_working.png" alt="Awema.pl">
+<img src="/assets/awema-pl/wiki/docs/guide/08_filter_by_name_not_working.png" alt="Awema.pl">
 
 All we need to do is to add `name` parameter to `$searchable` property in `App\Sections\Leads\Repositories\LeadRepository` and in this case we need to use `like` operator:
 
@@ -299,7 +299,7 @@ protected $searchable = [
 ];
 ```
 
-<img src="https://static.awema.pl/docs/guide/09_filter_by_name.png" alt="Awema.pl">
+<img src="/assets/awema-pl/wiki/docs/guide/09_filter_by_name.png" alt="Awema.pl">
 
 Now let's add a new filtering option by status. Firstly we need to set up an additional input field in `resources/views/sections/leads/index.blade.php` template:
 
@@ -308,7 +308,7 @@ Now let's add a new filtering option by status. Firstly we need to set up an add
 <fb-input name="status" label="{{ _p('pages.leads.filter.status', 'Status') }}"></fb-input>
 ```
 
-<img src="https://static.awema.pl/docs/guide/10_filter_by_status_input.png" alt="Awema.pl">
+<img src="/assets/awema-pl/wiki/docs/guide/10_filter_by_status_input.png" alt="Awema.pl">
 
 And because we're tracking changes in `status` parameter already:
 
@@ -327,7 +327,7 @@ protected $searchable = [
 
 Everything should work as intended:
 
-<img src="https://static.awema.pl/docs/guide/11_filter_by_status_results.png" alt="Awema.pl">
+<img src="/assets/awema-pl/wiki/docs/guide/11_filter_by_status_results.png" alt="Awema.pl">
 
 ## New sorting
 
@@ -347,7 +347,7 @@ Now let's add sorting by a lead's status right into a table column. Firstly upda
 
 as you can see we've added `sort` property to a respective table column, this will enable sorting controls:
 
-<img src="https://static.awema.pl/docs/guide/12_column_sorting_controls.png" alt="Awema.pl">
+<img src="/assets/awema-pl/wiki/docs/guide/12_column_sorting_controls.png" alt="Awema.pl">
 
 To make them work, we need to add `status` parameter to `$orderable` model property:
 
@@ -357,7 +357,7 @@ public $orderable = ['name', 'status'];
 
 That's it, it just works:
 
-<img src="https://static.awema.pl/docs/guide/13_column_sorting_results.png" alt="Awema.pl">
+<img src="/assets/awema-pl/wiki/docs/guide/13_column_sorting_results.png" alt="Awema.pl">
 
 If you want to add a new sorting option to `Sort by` drop-down menu, it's very simple:
 
@@ -369,7 +369,7 @@ If you want to add a new sorting option to `Sort by` drop-down menu, it's very s
 ...
 ```
 
-<img src="https://static.awema.pl/docs/guide/14_sort_by_status.png" alt="Awema.pl">
+<img src="/assets/awema-pl/wiki/docs/guide/14_sort_by_status.png" alt="Awema.pl">
 
 ## Creating new leads
 
@@ -385,7 +385,7 @@ For now, all we have is one input field for a name. We can add one more for stat
 </form-builder>
 ```
 
-<img src="https://static.awema.pl/docs/guide/15_create_lead_modal_window.png" alt="Awema.pl" class="mb-20">
+<img src="/assets/awema-pl/wiki/docs/guide/15_create_lead_modal_window.png" alt="Awema.pl" class="mb-20">
 
 And specify a route, to store data:
 
@@ -443,7 +443,7 @@ At last, we want to implement something fun and really useful. How about modifyi
 </tb-column>
 ```
 
-<img src="https://static.awema.pl/docs/guide/16_edit_lead_menu.png" alt="Awema.pl" class="mb-20">
+<img src="/assets/awema-pl/wiki/docs/guide/16_edit_lead_menu.png" alt="Awema.pl" class="mb-20">
 
 And new modal window:
 
@@ -461,7 +461,7 @@ And new modal window:
 
 Now if we click on the 'Edit' menu item in any table row, modal window with respective data will open:
 
-<img src="https://static.awema.pl/docs/guide/17_edit_lead_modal_window.png" alt="Awema.pl" class="mb-20">
+<img src="/assets/awema-pl/wiki/docs/guide/17_edit_lead_modal_window.png" alt="Awema.pl" class="mb-20">
 
 It remains only to add a new `update` method to the controller and new `PATCH` route:
 
@@ -513,7 +513,7 @@ public function store(StoreLead $request)
 
 That's all, now any validation errors will be displayed:
 
-<img src="https://static.awema.pl/docs/guide/18_validation_errors.png" alt="Awema.pl">
+<img src="/assets/awema-pl/wiki/docs/guide/18_validation_errors.png" alt="Awema.pl">
 
 <!-- ## Custom filters  -->
 

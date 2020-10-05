@@ -2,7 +2,7 @@
 
 There are two types of filters for working with GET parameters in the address bar:
 
-![slide-up-down](https://static.awema.pl/docs/filter.png)
+![slide-up-down](/assets/awema-pl/wiki/docs/filter.png)
 
 ## Install
 

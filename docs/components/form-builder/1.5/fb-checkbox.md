@@ -2,7 +2,7 @@
 
 It can be located within the &lt;form-builder&gt; component, then it looks for the value, by the path given in the `name` property, or sets one if nothing found with a value of `value` property. Outside form component it can be used with a `v-model` directive
 
-![fb-checkbox](https://static.awema.pl/docs/fb-checkbox.png)
+![fb-checkbox](/assets/awema-pl/wiki/docs/fb-checkbox.png)
 
 ## Components
 * [Form Builder](./form-builder.md)

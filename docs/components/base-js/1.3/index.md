@@ -18,12 +18,12 @@ To use the application, you should specify a project key in the `AWEMA_CONFIG.ke
         <!-- App Config  -->
         <script>
         const AWEMA_CONFIG = {
-            key: 'pkgkit.com project key'
+            key: 'awema.pl project key'
         }
         </script>
 
         <!-- JS-core script -->
-        <script src="https://cdn.pkgkit.com/{pkgkit.com CDN key}/awema-pl/base-js/v1.x.x/js/main.js"></script>
+        <script src="https://cdn.awema.pl/{awema.pl CDN key}/awema-pl/base-js/v1.x.x/js/main.js"></script>
     </head>
     <body>
 

@@ -6,7 +6,7 @@ It can be located within the &lt;form-builder&gt; component, then it requires a 
 
 The component is visualized as follows:
 
-![fb-select](https://static.awema.pl/docs/fb-select.gif)
+![fb-select](/assets/awema-pl/wiki/docs/fb-select.gif)
 
 ## Components
 * [Form Builder](./form-builder.md)

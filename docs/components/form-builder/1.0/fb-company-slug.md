@@ -4,7 +4,7 @@
 
 Может находиться только внутри &lt;form-builder&gt; и требует наличие &lt;fb-input&gt; из которого преобразуется субдомен.
 
-![fb-company-slug](https://storage.googleapis.com/static.awema.pl/docs/fb-company-slug.gif)
+![fb-company-slug](/assets/awema-pl/wiki/docs/fb-company-slug.gif)
 
 
 ## <a name="fbcs-example"></a> Пример использования компонента

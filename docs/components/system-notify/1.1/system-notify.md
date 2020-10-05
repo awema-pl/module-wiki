@@ -49,4 +49,4 @@ Click on a button like this sends AJAX-request, using `AWEMA.ajax()` method and 
 
 The picture describes best
 
-<img class="tf-img" src="https://storage.googleapis.com/static.awema.pl/docs/system-notify_themes_and_statuses.png" alt="AWEMA-notify themes and statuses">
+<img class="tf-img" src="/assets/awema-pl/wiki/docs/system-notify_themes_and_statuses.png" alt="AWEMA-notify themes and statuses">
