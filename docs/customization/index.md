@@ -7,7 +7,7 @@
 variables which can be customized.
 
 <p align="center">
-  <img src="/assets/awema-pl/wiki/docs/awema-pl.png" alt="Awema.PL" />
+  <img src="/assets/awema-pl/wiki/img/docs/awema-pl.png" alt="Awema.PL" />
 </p>
 
 ## How to change the style
@@ -41,7 +41,7 @@ Layout](https://www.awema.pl/documentation/components/indigo-layout)
 #### Stripe design
 
 <p align="center">
-  <img src="/assets/awema-pl/wiki/docs/stripe2.jpg" alt="Stripe - Awema.PL" />
+  <img src="/assets/awema-pl/wiki/img/docs/stripe2.jpg" alt="Stripe - Awema.PL" />
 </p>
 
 ```php
@@ -216,7 +216,7 @@ Layout](https://www.awema.pl/documentation/components/indigo-layout)
 #### Google Material Design
 
 <p align="center">
-  <img src="/assets/awema-pl/wiki/docs/google2.jpg" alt="Google - Awema.PL" />
+  <img src="/assets/awema-pl/wiki/img/docs/google2.jpg" alt="Google - Awema.PL" />
 </p>
 
 ```php

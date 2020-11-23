@@ -4,7 +4,7 @@
 
 Может находиться только внутри &lt;form-builder&gt;
 
-![fb-textarea](/assets/awema-pl/wiki/docs/fb-textarea.png)
+![fb-textarea](/assets/awema-pl/wiki/img/docs/fb-textarea.png)
 
 
 ## Пример использования компонента

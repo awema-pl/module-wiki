@@ -2,7 +2,7 @@
 
 From Builder is a component for building any forms.
 
-![form-builder](/assets/awema-pl/wiki/docs/form-builder.gif)
+![form-builder](/assets/awema-pl/wiki/img/docs/form-builder.gif)
 
 ## Install
 

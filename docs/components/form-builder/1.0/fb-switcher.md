@@ -2,7 +2,7 @@
 
 Переключатель 0/1 на основе `input[type="range"]`. Может находиться только внутри &lt;form-builder&gt;
 
-![fb-switcher](/assets/awema-pl/wiki/docs/fb-switcher.gif)
+![fb-switcher](/assets/awema-pl/wiki/img/docs/fb-switcher.gif)
 
 
 ## Пример использования компонента

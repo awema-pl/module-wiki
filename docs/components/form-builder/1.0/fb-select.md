@@ -4,7 +4,7 @@
 
 Может находиться только внутри &lt;form-builder&gt;
 
-![fb-select](/assets/awema-pl/wiki/docs/fb-select.gif)
+![fb-select](/assets/awema-pl/wiki/img/docs/fb-select.gif)
 
 
 ## Пример использования компонента

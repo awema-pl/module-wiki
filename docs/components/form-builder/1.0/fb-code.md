@@ -2,7 +2,7 @@
 
 Компеннет поля для ввода кода. Может находиться только внутри &lt;form-builder&gt;
 
-![fb-code](/assets/awema-pl/wiki/docs/fb-code.gif)
+![fb-code](/assets/awema-pl/wiki/img/docs/fb-code.gif)
 
 ## Пример использования компонента
 

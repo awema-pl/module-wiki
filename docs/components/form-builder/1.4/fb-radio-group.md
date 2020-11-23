@@ -2,7 +2,7 @@
 
 Using this component, you can create a group of radio buttons. It can be located within the &lt;form-builder&gt; component, then it requires `name` property, or it can be used with `v-model` Vue directive. The example below shows several different groups of radio buttons which you can customize at your own discretion.
 
-![fb-radio-group](/assets/awema-pl/wiki/docs/fb-radio-group.png)
+![fb-radio-group](/assets/awema-pl/wiki/img/docs/fb-radio-group.png)
 
 ## Components
 * [Form Builder](./form-builder.md)

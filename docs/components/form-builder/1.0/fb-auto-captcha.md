@@ -4,7 +4,7 @@
 
 По-умолчанию поле скрыто, если не передано свойство `show`. Если в ответе с сервера есть ошибка для поля с идентификатором компонента, то поле показывается (отрисовывает recaptcha)
 
-![fb-auto-catptcha](/assets/awema-pl/wiki/docs/fb-auto-captcha.gif)
+![fb-auto-catptcha](/assets/awema-pl/wiki/img/docs/fb-auto-captcha.gif)
 
 
 ## Пример использования компонента

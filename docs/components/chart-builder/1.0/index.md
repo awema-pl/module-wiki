@@ -2,7 +2,7 @@
 
 The <chart-builder> component is intended for drawing diagrams. It uses the open source [Chart.js](https://www.chartjs.org/) which allows to visualize your data in different ways.
 
-![chart-js](/assets/awema-pl/wiki/docs/chart-builder.gif)
+![chart-js](/assets/awema-pl/wiki/img/docs/chart-builder.gif)
 
 
 ## Example of use

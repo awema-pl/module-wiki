@@ -2,7 +2,7 @@
 
 This component provides mechanism to switch between tabs. It is used in conjunction with `&lt;tb-tab&gt;` and `&lt;tb-link&gt;`. It automatically generates tabs from the default slot and ensures that they fit in a browser window within one line. The switchers which don’t fit in will be set in the special hidden switcher in the form of a dropdown list.
 
-![tab-builder](/assets/awema-pl/wiki/docs/tab-builder.gif)
+![tab-builder](/assets/awema-pl/wiki/img/docs/tab-builder.gif)
 
 
 ## Components

@@ -4,7 +4,7 @@ This component is intended for uploading files. It can be located within the &lt
 
 It uploads files according to the specified `url` property and sends paths to the uploaded files when submitting a form. Below, you can see the process of uploading files by using the &lt;fb-uploader&gt; component:
 
-![fb-uploader](/assets/awema-pl/wiki/docs/fb-uploader.gif)
+![fb-uploader](/assets/awema-pl/wiki/img/docs/fb-uploader.gif)
 
 ## Components
 * [Form Builder](./form-builder.md)

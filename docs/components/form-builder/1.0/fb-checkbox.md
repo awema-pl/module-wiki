@@ -2,7 +2,7 @@
 
 Может находиться только внутри &lt;form-builder&gt;
 
-![fb-checkbox](/assets/awema-pl/wiki/docs/fb-checkbox.png)
+![fb-checkbox](/assets/awema-pl/wiki/img/docs/fb-checkbox.png)
 
 
 ## Пример использования компонента

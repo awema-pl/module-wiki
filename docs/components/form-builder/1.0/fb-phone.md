@@ -4,7 +4,7 @@
 
 Может находиться только внутри &lt;form-builder&gt;
 
-![fb-phone](/assets/awema-pl/wiki/docs/fb-phone.gif)
+![fb-phone](/assets/awema-pl/wiki/img/docs/fb-phone.gif)
 
 
 ## Пример использования компонента

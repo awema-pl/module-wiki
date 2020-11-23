@@ -2,7 +2,7 @@
 
 Adds ability to show notifications to improve user experience.
 
-![system-notify](/assets/awema-pl/wiki/docs/system-notify.gif)
+![system-notify](/assets/awema-pl/wiki/img/docs/system-notify.gif)
 
 Replaces default `AWEMA.notify()` method (shows system alert).
 

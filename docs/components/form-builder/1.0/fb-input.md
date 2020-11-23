@@ -2,7 +2,7 @@
 
 Компонент текстового поля. Может находиться только внутри &lt;form-builder&gt;
 
-![fb-input](/assets/awema-pl/wiki/docs/fb-input.png)
+![fb-input](/assets/awema-pl/wiki/img/docs/fb-input.png)
 
 
 ## Пример использования компонента

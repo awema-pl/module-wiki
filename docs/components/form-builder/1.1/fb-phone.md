@@ -4,7 +4,7 @@ This component is intended for the international telephone input. The [vue-tel-i
 
 It can be located within the &lt;form-builder&gt; component, then it requires `name` property, or it can be used with `v-model` directive. Below you can see how this component functions.
 
-![fb-phone](/assets/awema-pl/wiki/docs/fb-phone.gif)
+![fb-phone](/assets/awema-pl/wiki/img/docs/fb-phone.gif)
 
 ## Components
 * [General information](./form-builder.md)

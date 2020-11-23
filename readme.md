@@ -1,6 +1,6 @@
 <p align="center">
     <a href="https://www.awema.pl/?utm_source=github&utm_medium=wiki" target="_blank" rel="noopener noreferrer">
-        <img width="100" src="/assets/awema-pl/wiki/promo/Logo_sign_color.svg" alt="Awema.pl logo">
+        <img width="100" src="/assets/awema-pl/wiki/img/promo/Logo_sign_color.svg" alt="Awema.pl logo">
     </a>
 </p>
 
@@ -44,7 +44,7 @@
 Looking for other Awema.pl repositories? Check out [website](https://www.awema.pl/?utm_source=github&utm_medium=wiki), [new project](https://github.com/awema-pl/awema-pl) repository, [demo](https://github.com/awema-pl/demo) repository, and [live demo](https://demo.awema.pl) example.
 
 <p align="center">
-    <img src="/assets/awema-pl/wiki/promo/illustration_1440x1030%20v2.png" alt="Awema.pl">
+    <img src="/assets/awema-pl/wiki/img/promo/illustration_1440x1030%20v2.png" alt="Awema.pl">
 </p>
 
 ## Live version

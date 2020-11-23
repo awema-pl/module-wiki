@@ -4,7 +4,7 @@ Guides user through the interface
 
 When page is loaded and becomes interactive, component checks cookie record with it's name for current path. If there is no record, component will start the tour. If there are multiple tours, they will be queried in order of appearance in markup.
 
-![virtual-tour](/assets/awema-pl/wiki/docs/virtual-tour.gif)
+![virtual-tour](/assets/awema-pl/wiki/img/docs/virtual-tour.gif)
 
 ## Minimal markup
 

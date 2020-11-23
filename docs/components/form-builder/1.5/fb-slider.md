@@ -4,7 +4,7 @@ This slider component consists of a horizontal slider and a handle that can be m
 
 The component can be located within the &lt;form-builder&gt; component, then it requires `name` property, or it can be used with `v-model` Vue directive. Below, you will see this component in action.
 
-![fb-slider](/assets/awema-pl/wiki/docs/fb-slider.gif)
+![fb-slider](/assets/awema-pl/wiki/img/docs/fb-slider.gif)
 
 ## Components
 * [Form Builder](./form-builder.md)

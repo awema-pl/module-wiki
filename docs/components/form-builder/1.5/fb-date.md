@@ -2,7 +2,7 @@
 
 It is a date and time field component. For selecting a period, please use the [Date range component](./fb-date-range.md) It can be located within the &lt;form-builder&gt; component or used with `v-model` directive and can be visualized as follows:
 
-![fb-date](/assets/awema-pl/wiki/docs/fb-date.gif)
+![fb-date](/assets/awema-pl/wiki/img/docs/fb-date.gif)
 
 The component uses [Tiny Date Picker](https://github.com/chrisdavies/tiny-date-picker) internally to render calendar
 

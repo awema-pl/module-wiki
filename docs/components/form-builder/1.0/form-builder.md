@@ -2,7 +2,7 @@
 
 Компонент динамических форм. Регистрирует хранилище `Vuex` в переменной `Vue.prototype.$awemaForms`. Внешние данные, которые указываются через параметр `store-data` берутся из общего хранилища `AWEMA._store`
 
-![form-builder](/assets/awema-pl/wiki/docs/form-builder.gif)
+![form-builder](/assets/awema-pl/wiki/img/docs/form-builder.gif)
 
 
 ## Пример использования компонента

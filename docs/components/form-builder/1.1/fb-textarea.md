@@ -4,7 +4,7 @@ This is a text area component. When filling in the text area, it will automatica
 
 This component can be located within the &lt;form-builder&gt; component, then it requires `name` property, or it can be used with `v-model` Vue directive. Below, you will see a text area field in different states and its display style.
 
-![fb-textarea](/assets/awema-pl/wiki/docs/fb-textarea.png)
+![fb-textarea](/assets/awema-pl/wiki/img/docs/fb-textarea.png)
 
 ## Components
 * [General information](./form-builder.md)

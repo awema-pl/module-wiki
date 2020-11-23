@@ -2,7 +2,7 @@
 
 This component is intended for the animated appearance/disappearance of the component content. Below you will see a visual presentation of such component.
 
-![slide-up-down](/assets/awema-pl/wiki/docs/slide-up-down.gif)
+![slide-up-down](/assets/awema-pl/wiki/img/docs/slide-up-down.gif)
 
 ## Components
 - [Blade Components](./components.md)

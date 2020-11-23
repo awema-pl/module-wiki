@@ -6,7 +6,7 @@ It is a component of the field for entering code. It can be located only within 
 
 Here is a visual presentation of this component.
 
-![fb-code](/assets/awema-pl/wiki/docs/fb-code.gif)
+![fb-code](/assets/awema-pl/wiki/img/docs/fb-code.gif)
 
 ## Components
 * [General information](./form-builder.md)

@@ -22,4 +22,4 @@ If you would like to add nice shadow and background for an image, please use `.t
 
 | With shadow | Witout shadow |
 | ------ | ------ |
-| <img src="/assets/awema-pl/wiki/docs/awema-pl.png" class="tf-img" alt="" /> | <img src="/assets/awema-pl/wiki/docs/awema-pl.png" alt="" /> |
+| <img src="/assets/awema-pl/wiki/img/docs/awema-pl.png" class="tf-img" alt="" /> | <img src="/assets/awema-pl/wiki/img/docs/awema-pl.png" alt="" /> |

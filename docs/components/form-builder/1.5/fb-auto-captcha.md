@@ -4,7 +4,7 @@ The Recaptcha component. It can be located only within the &lt;form-builder&gt; 
 
 By default, the field is hidden if the `show`property is not passed. If the server response contains an error for the field with component identifier, the field will be displayed (that is, the recaptcha will appear). In the  visual presentation below, you can watch this component in action.
 
-![fb-auto-captcha](/assets/awema-pl/wiki/docs/fb-auto-captcha.gif)
+![fb-auto-captcha](/assets/awema-pl/wiki/img/docs/fb-auto-captcha.gif)
 
 ## Components
 * [Form Builder](./form-builder.md)
