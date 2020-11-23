@@ -210,11 +210,11 @@ Further, we see the usage of one of our most powerful component - [Table Builder
 And the last one is the `modal window` with leads creation form:
 
 ```html
-<modal-window name="leads" class="modal_formbuilder" title="Create">
+<content-window name="leads" class="modal_formbuilder" title="Create">
     <form-builder url="" :disabled-dialog="true">
         <fb-input name="name" label="{{ _p('pages.leads.modal_add.name', 'Name') }}"></fb-input>
     </form-builder>
-</modal-window>
+</content-window>
 ```
 
 We'll inspect `Modal Window` and [Form Builder](https://github.com/awema-pl/form-builder) components later in greater detail when we update our current project.
@@ -449,14 +449,14 @@ And new modal window:
 
 ```html
 ...
-</modal-window>
+</content-window>
 
-<modal-window name="edit-lead" class="modal_formbuilder" title="{{ _p('pages.leads.modal.edit_lead.title', 'Edit lead') }}">
+<content-window name="edit-lead" class="modal_formbuilder" title="{{ _p('pages.leads.modal.edit_lead.title', 'Edit lead') }}">
     <form-builder method="PATCH" url="/leads/{id}" store-data="editLead" @sended="AWEMA.emit('content::leads:update')">
         <fb-input name="name" label="{{ _p('pages.leads.modal_add.name', 'Name') }}"></fb-input>
         <fb-input name="status" label="{{ _p('pages.leads.modal_add.status', 'Status') }}"></fb-input>
     </form-builder>
-</modal-window>
+</content-window>
 ```
 
 Now if we click on the 'Edit' menu item in any table row, modal window with respective data will open:
