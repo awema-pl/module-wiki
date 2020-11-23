@@ -61,4 +61,4 @@ The package will automatically put docs path to `config('docs.path')`
 
 ## License
 
-[MIT](http://opensource.org/licenses/MIT)
+[MIT](http://opensource.org/licenses/MIT) 
