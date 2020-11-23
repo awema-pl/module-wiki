@@ -13,7 +13,7 @@ It is a modal window component with a tracked history. Below you will see a visu
 import Vue from 'vue'
 import VueRouter from 'vue-router' // required
 import modalWindow from '@awema-pl/modal-window'
-import '@awema-pl/modal-window/dist/main.css' // optionally, for default styling
+import '@awema-pl/modal/dist/main.css' // optionally, for default styling
 
 Vue.use(VueRouter) // required
 Vue.use(modalWindow, { /* optional config */}) // registers `<modal-window>` component globally
