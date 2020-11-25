@@ -36,7 +36,7 @@
   slug: "ui"
   children:
     - name: "Modal Window"
-      link: "content-window"
+      link: "modal-window"
     - name: "Tab Builder"
       link: "tab-builder"
     - name: "Context Menu"

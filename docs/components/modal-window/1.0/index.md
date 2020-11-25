@@ -1,4 +1,4 @@
-# The &lt;content-window&gt; Component
+# The &lt;modal-window&gt; Component
 
 It is a modal window component with a tracked history. Below you will see a visual presentation of the modal window component.
 
@@ -8,17 +8,17 @@ It is a modal window component with a tracked history. Below you will see a visu
 <h2 id="mw-example">Example of using the component</h2>
 
 ```html
-<content-window ref="modal">
+<modal-window ref="modal">
     Text in the modal window
-</content-window>
+</modal-window>
 
 <!-- direct call of method for opening a modal window (not recommended) -->
 <button @click="$refs.modal.open()">Open a window</button>
 
 
-<content-window name="good-modal">
+<modal-window name="good-modal">
     Text in the modal window
-</content-window>
+</modal-window>
 
 <!-- call of the event for opening a modal window (preferred method) -->
 <button @click="AWEMA.emit(modal::good-modal.open)">Open another window</button>
